@@ -25,6 +25,6 @@ print(pares) # 2, 4, 6
 print("=====================ORDENAR ELEMENTOS DE UNA LISTA SEGUN UN CRITERIO DEFINIDO========================")
 
 dispositivos = ['celular', 'auriculares','tablet', 'televisor']
-dispositivos_ordenados = sorted(dispositivos, key=lambda dispositivo: len(dispositivo)) # Me devuelve los numeros del menor caracter al que mas tiene
+dispositivos_ordenados = sorted(dispositivos, key=lambda dispositivo: len(dispositivo)) # Me devuelve los dispositivos del menor caracter al que mas tiene
 print(dispositivos_ordenados)
 
