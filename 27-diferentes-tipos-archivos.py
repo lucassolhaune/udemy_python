@@ -18,7 +18,7 @@ with open('datos.csv', mode='r') as archivo:
 #Crea un archivos json con datos
 with open('datos.json', 'w') as archivo:
     json.dump({'nombre': 'Lucas', 'edad': 25}, archivo)
-
+''''''
 with open('datos.json', 'r') as archivo:
     datos = json.load(archivo)
     print("json:", datos)
